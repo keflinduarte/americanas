@@ -4,7 +4,7 @@ Feature: Search for a product and do the checkout
     Given User access Americanas website
 
   Scenario: Complete the account and checkout a product
-    Given User inserts "teste_dextra@hotmail.com" as Email
+    Given User inserts "teste_dextra1@hotmail.com" as Email
     And User inserts "@Dextra_123#" as Senha
     And User should see the "ótima" validation
     And User inserts "97728327801" as CPF
